@@ -7,5 +7,6 @@ clean:
 qemu: all
 	qemu-system-i386 -fda helloos.bin
 
+
 .PHONY:
-	all
+	all clean
